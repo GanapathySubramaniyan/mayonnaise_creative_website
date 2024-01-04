@@ -1,0 +1,1671 @@
+*
+{
+    margin: 0px 0px 0px 0px ;
+    padding: 0px;  
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+#firstpagebackgroundimagediv
+{
+    display: flex;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url(../images/tasty-pizza-near-ingredients_23-2147772080.avif); */
+    background-image: url(../mayonnaise_creative_website/images/tasty-pizza-near-ingredients_23-2147772080.avif);
+
+}
+#firstpagenavigationdiv
+{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: end;
+    margin-top: -588px;
+    margin-right: 90px;
+    /* margin-right: 20px; */
+    /* border: 1px solid white; */
+}
+.navcontentsections
+{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: white; 
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+     
+}
+.navcontentsections a
+{
+  color: white;
+  text-decoration: none;
+}
+.navcontentsections:hover
+{
+    color: black;
+    border-radius: 8px;
+    width: 80px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 77, 1);
+    transition: 0.3s;
+}
+#welcomediv
+{
+    display: flex;
+    justify-content: center;
+}
+#mayoneese
+{
+    font-size: 50px;
+    margin-top: 200px;
+    color: white;
+}
+#ourtastediv
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+}
+#ourtaste
+{
+color: white;
+}
+#moreaboutusbuttondiv
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+
+}
+#nextButton
+{
+    margin-top: 30PX;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 77, 1);
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 70px;
+    text-align: center;
+    font-size: 16px;
+}
+#nextButton:hover
+{
+    box-shadow: 1px 1px 4px white;
+    transition: 0.3s;
+
+}
+
+/* About Us Page------------------------------------------------ */
+
+#aboutusPage
+{
+    margin-top: -30px;
+   height: 100vh;
+   background-color: orange;
+
+}
+#aboutuspagecontentsdiv
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 99px;   
+}
+#weareproviding
+{
+    font-size: x-large;
+    margin-top: 30px;
+  word-spacing: 5px; 
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid white;
+  padding: 15px;
+  background-color: rgb(220, 239, 255);
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.587);
+  border-radius: 4px;
+}
+#imagesdiv
+{
+    text-align: center;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px ;
+    gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+#ourcheffimagediv
+{
+    border-radius: 8px;
+    /* background-image: url(../images/cheff.avif); */
+    background-image: url(../mayonnaise_creative_website/images/cheff.avif);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ourcheffimagediv:hover
+{
+box-shadow: -1px 1px 10px rgb(255, 255, 255);
+scale: 103%;
+transition: 0.5s;
+}
+
+#delivaryimagediv
+{
+    border-radius: 8px;
+    /* background-image: url(../images/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai.jpg); */
+    background-image: url(../mayonnaise_creative_website/images/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#delivaryimagediv:hover
+{
+    box-shadow: -1px 1px 10px rgb(255, 255, 255);
+    scale: 103%;
+    transition: 0.5s;
+}
+#happyCustomerimagediv
+{
+    border: 1px solid black;
+    border-radius: 8px;
+    /* background-image: url(../images/happycustomer.avif); */
+    background-image: url(../mayonnaise_creative_website/images/happycustomer.avif);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#happyCustomerimagediv:hover
+{
+    box-shadow: -1px 1px 10px rgb(255, 255, 255);
+    scale: 103%;
+    transition: 0.5s;
+}
+
+#aboutusButtondiv
+{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+#aboutusNextButtondiv
+{
+    text-decoration: none;    
+    margin-right: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 77, 1);
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 70px;
+    text-align: center;
+    font-size: 16px;
+    /* box-shadow: 1px 1px 4px white;  */
+}
+#aboutusbackButtondiv
+{
+    margin-right: 20px;
+    text-decoration: none;    
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 77, 1);
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 70px;
+    text-align: center;
+    font-size: 16px;
+}
+#aboutusbackButtondiv:hover
+{
+    transition: 0.3s;
+    box-shadow: 1px 1px 7px white; 
+}
+#aboutusNextButtondiv:hover
+{
+    transition: 0.3s;
+    box-shadow: 1px 1px 7px white; 
+}
+
+/* Menu Page--------------------------------------------------------------------------------------------------------- */
+
+#ordernowcontent
+{
+    margin-top: 30px;
+}
+#menupagediv
+{
+    min-height: 100vh;
+}
+#ordernowcontent:before
+{
+content: "!!!";
+}
+#ordernowcontent:after
+{
+content: "!!!";
+}
+#ourdishesdiv
+{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows:201px 201px 201px ;
+gap: 30px;
+margin-top: 20px;
+margin-left: 150px;
+margin-right: 150px;
+margin-bottom: 20px;
+}
+#nonvegdiv
+{
+    margin-top:30px ;
+    display: flex;
+    justify-content: center;
+    
+}
+#nonvegtext
+{
+    padding: 10px;
+    border-radius: 8px;
+    animation-name: nonvegtext1;
+    animation-timing-function: linear;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+}
+@keyframes nonvegtext1
+{
+  0%
+  {
+    margin-left: 200px;
+    background-color: #FF4D01;
+    color: black;
+  }
+  100%
+  {
+    margin-left: -200px;
+    background-color: white;
+    color: #FF4D01;
+  }
+}
+#OrderOurDishesdiv
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.nonvegmenuimages
+{
+    border-radius: 8px;
+    border: 1px solid black;  
+}
+.nonvegmenuimages:hover
+{
+    transition: 0.1s;
+    scale: 101%;
+    box-shadow: -1px 1px 10px rgb(255,77,1);
+}
+
+/* menu page images */
+
+/* pizza ----------------------------------------------------------*/
+#pizzadiv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+#pizzaimage
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* background-image: url(../images/pizzaimage.avif); */
+    background-image: url(../mayonnaise_creative_website/images/pizzaimage.avif);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#pizzatext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+}
+#pizzaprice
+{
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:125.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+}
+#pizzacountandsize
+{
+    text-align: center;
+    display: none;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+}
+#pizzaonclickdiv
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#pizzapricebackgroundcolor
+{
+    
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+
+}
+.pizzacounts
+{
+    display: inline-block;
+    margin-left: -10px;
+}
+.pizzasize
+{
+    margin-left: -13px;
+}
+#pizzaokbutton
+{
+    margin-left: 10px;
+}
+
+/* burger---------------------------------------------------------------  */
+
+#Burgerdiv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+#Burgerimage
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* background-image: url(../images/burger.avif); */
+    background-image: url(../mayonnaise_creative_website/images/burger.avif);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#burgertext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#burgerprice
+{
+
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:125.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+
+#burgercountandsize
+{
+    text-align: center;
+    display: none;
+    /* padding: 10px; */
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#burgerpricebackgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+
+}
+.burgercounts
+{
+    display: inline-block;
+    margin-left: -10px;
+}
+.burgersize
+{
+    margin-left: -13px;
+}
+#burgerokbutton
+{
+    margin-left: 10px;
+}
+
+/* French Fries----------------------------------------------------- */
+
+#frenchfriesdiv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+#frenchfriesimage
+{
+    display: grid;
+    /* background-image: url(../images/frenchfries.avif); */
+    background-image: url(../mayonnaise_creative_website/images/frenchfries.avif);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#frenchfriestext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#frenchfriesprice
+{
+
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:125.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#frenchfriescountandsize
+{
+    text-align: center;
+    display: none;
+    /* padding: 10px; */
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#frenchfriespricebackgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+
+}
+.frenchfriescounts
+{
+    display: inline-block;
+    margin-left: -10px;
+}
+.frenchfriessize
+{
+    margin-left: -13px;
+}
+#frenchfriesokbutton
+{
+    margin-left: 10px;
+}
+
+/* Briyani --------------------------------------------------------------*/
+
+#Briyanidiv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#Briyaniimage
+{
+    display: grid;
+    /* background-image: url(../images/briyani.avif); */
+    background-image: url(../mayonnaise_creative_website/images/briyani.avif);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#Briyanitext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ; 
+}
+#Briyaniprice
+{
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:126px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#Briyanicountandsize
+{
+    text-align: center;
+    display: none;
+    margin-top:125.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;  
+} 
+#Briyanibackgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+    border-bottom: 1px solid black;
+}
+.Briyanicounts
+{
+    display: inline-block;
+    margin-left: -10px;
+}
+.Briyanisize
+{
+    margin-left: -13px;
+}
+#Briyaniokbutton
+{
+    margin-left: 10px;
+}
+
+
+/* grill */
+#grilldiv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+#grillimage
+{
+    display: grid;
+    /* background-image: url(../images/grill2.avif); */
+    background-image: url(../mayonnaise_creative_website/images/grill2.avif);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#grilltext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#grillprice
+{
+
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:126px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#grillcountandsize
+{
+    text-align: center;
+    display: none;
+    /* padding: 10px; */
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#grillbackgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+    border-bottom: 1px solid black;
+
+}
+.grillcounts
+{
+    display: inline-block;
+    margin-left: -10px;
+}
+.grillsize
+{
+    margin-left: -13px;
+}
+#grillokbutton
+{
+    margin-left: 10px;
+}
+
+/* chickenrice*/
+
+#chickenricediv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+#chickenriceimage
+{
+    display: grid;
+    /* background-image: url(../images/chickenrice.avif); */
+    background-image: url(../mayonnaise_creative_website/images/chickenrice.avif);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#chickenricetext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#chickenriceprice
+{
+
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:126px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#chickenricecountandsize
+{
+    text-align: center;
+    display: none;
+    /* padding: 10px; */
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#chickenricebackgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+    border-bottom: 1px solid black;
+
+}
+.chickenricecounts
+{
+    display: inline-block;
+    margin-left: -10px;
+}
+.chickenricesize
+{
+    margin-left: -13px;
+}
+#chickenriceokbutton
+{
+    margin-left: 10px;
+}
+
+/* pepperfrychicken */
+
+#pepperfrychickendiv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+#pepperfrychickenimage
+{
+    display: grid;
+    /* background-image: url(../images/pepperfry.avif); */
+    background-image: url(../mayonnaise_creative_website/images/pepperfry.avif);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#pepperfrychickentext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#pepperfrychickenprice
+{
+
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:125.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#pepperfrychickencountandsize
+{
+    text-align: center;
+    display: none;
+    /* padding: 10px; */
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#pepperfrychickenbackgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+
+}
+.pepperfrychickencounts
+{
+    display: inline-block;
+    margin-left: -10px;
+}
+.pepperfrychickensize
+{
+    margin-left: -13px;
+}
+#pepperfrychickenokbutton
+{
+    margin-left: 10px;
+}
+
+/* chickenNoodles */
+
+#chickenNoodlesdiv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#chickenNoodlesimage
+{
+    display: grid;
+    /* background-image: url(../images/chickennoodles.avif); */
+    background-image: url(../mayonnaise_creative_website/images/chickennoodles.avif);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#chickennoodlestext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#chickenNoodlesprice
+{
+
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:125.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#chickennoodlescountandsize
+{
+    text-align: center;
+    display: none;
+    /* padding: 10px; */
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#chickennoodlesbackgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+
+}
+.chickennoodlescounts
+{
+    display: inline-block;
+    margin-left: -10px;
+}
+.chickennoodlessize
+{
+    margin-left: -13px;
+}
+#chickennoodlesokbutton
+{
+    margin-left: 10px;
+}
+
+
+/* chicken65 */
+
+#chicken65div
+{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+#chicken65image
+{
+    display: grid;
+    /* background-image: url(../images/chicken65.avif); */
+    background-image: url(../mayonnaise_creative_website/images/chicken65.avif);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#chicken65text
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#chicken65price
+{
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:125.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#chicken65countandsize
+{
+    text-align: center;
+    display: none;
+    /* padding: 10px; */
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#chicken65backgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+
+}
+.chicken65counts
+{
+    display: inline-block;
+    margin-left: -10px;
+}
+.chicken65size
+{
+    margin-left: -13px;
+}
+#chicken65okbutton
+{
+    margin-left: 10px;
+}
+
+
+
+/* veg---------------------------------------------------------------------------------------*/
+.vegmenuimages
+{
+    border-radius: 8px;
+    border: 1px solid black;  
+}
+.vegmenuimages:hover
+{
+    transition: 0.1s;
+    scale: 101%;
+    box-shadow: -1px 1px 10px rgb(76, 190, 0);
+}
+#vegdiv
+{
+    margin-top:30px ;
+    display: flex;
+    justify-content: center;
+    
+}
+#vegtext
+{
+    /* border: 1px solid black; */
+    padding: 10px;
+    border-radius: 8px;
+    animation-name: vegtext1;
+    animation-timing-function: linear;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+}
+@keyframes vegtext1
+{
+  0%
+  {
+    margin-left: 200px;
+    background-color: #12ff01;
+    color: black;
+    /* transform: rotate(360deg); */
+  }
+  100%
+  {
+    margin-left: -200px;
+    background-color: white;
+    color: #12ff01;
+    /* transform: rotate(-360deg); */
+  }
+}
+
+/* dosai------------------------------------------- */
+#dosaidiv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+#dosaiimage
+{
+    display: grid;
+    /* background-image: url(../images/dosai2.avif); */
+    background-image: url(../mayonnaise_creative_website/images/dosai2.avif);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#dosaitext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#dosaiprice
+{
+
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:126px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#dosaicountandsize
+{
+    text-align: center;
+    display: none;
+    /* padding: 10px; */
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#dosaibackgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+border-bottom: 1px solid black;
+}
+.dosaicounts
+{
+    display: inline-block;
+    margin-left: -10px;
+}
+.dosaisize
+{
+    margin-left: -13px;
+}
+#dosaiokbutton
+{
+    margin-left: 10px;
+}
+
+/* boori------------------------------------------------  */
+
+#Booridiv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#Booriimage
+{
+    display: grid;
+    background-image: url(../mayonnaise_creative_website/images/boori1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#Booritext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#Booriprice
+{
+
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:126px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#Booricountandsize
+{
+    text-align: center;
+    display: none;
+    /* padding: 10px; */
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#Booribackgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+    border-bottom: 1px solid black;
+
+}
+.Booricounts
+{
+    display: inline-block;
+    margin-left: -10px;
+}
+.Boorisize
+{
+    margin-left: -13px;
+}
+#Booriokbutton
+{
+    margin-left: 10px;
+}
+
+/* vadai --------------------------------------------------------------*/
+
+#vadaidiv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+#vadaiimage
+{
+    display: grid;
+    background-image: url(../mayonnaise_creative_website/images/vadai1.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#vadaitext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#vadaiprice
+{
+
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:126px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#vadaicountandsize
+{
+    text-align: center;
+    display: none;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#vadaibackgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+    border-bottom: 1px solid black;
+}
+.vadaicounts
+{
+    display: inline-block;
+    margin-left: -10px;
+}
+.vadaisize
+{
+    margin-left: -13px;
+}
+#vadaiokbutton
+{
+    margin-left: 10px;
+}
+
+
+/* chappathi------------------------------ */
+
+#chappathidiv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+#chappathiimage
+{
+    display: grid;
+    background-image: url(../mayonnaise_creative_website/images/chappathi2.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#chappathitext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#chappathiprice
+{
+
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:125.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#chappathicountandsize
+{
+    text-align: center;
+    display: none;
+    /* padding: 10px; */
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#chappathibackgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+
+}
+
+
+/* Pannerbuttermasala--------------------------------------- */
+#Pannerbuttermasaladiv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+#Pannerbuttermasalaimage
+{
+    display: grid;
+    background-image: url(../mayonnaise_creative_website/images/pannerbuttermasala2.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#pannerbuttermasalatext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#Pannerbuttermasalaprice
+{
+
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:125.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#Pannerbuttermasalacountandsize
+{
+    text-align: center;
+    display: none;
+    /* padding: 10px; */
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#Pannerbuttermasalabackgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+
+}
+
+
+/* vegmeals------------------------------------------- */
+
+#vegmealsdiv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+#vegmealsimage
+{
+    display: grid;
+    background-image: url(../mayonnaise_creative_website/images/vegmeals.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#vegmealstext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#vegmealsprice
+{
+
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:125.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#vegmealscountandsize
+{
+    text-align: center;
+    display: none;
+    /* padding: 10px; */
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#vegmealsbackgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+
+}
+
+/* vegbriyani ------------------------------------------------*/
+
+#vegbriyanidiv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+#vegbriyaniimage
+{
+    display: grid;
+    background-image: url(../mayonnaise_creative_website/images/vegbriyaani2.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#vegbriyanitext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#vegbriyaniprice
+{
+
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:125.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#vegbriyanicountandsize
+{
+    text-align: center;
+    display: none;
+    /* padding: 10px; */
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#vegbriyanibackgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+border-bottom: 1px solid black;
+}
+
+/* vegNoodles------------------------------------------------------- */
+
+#vegNoodlesdiv
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#vegNoodlesimage
+{
+    display: grid;
+    background-image: url(../mayonnaise_creative_website/images/vegnoodles2.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#vegnoodlestext
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#vegNoodlesprice
+{
+
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:125.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#vegnoodlescountandsize
+{
+    text-align: center;
+    display: none;
+    /* padding: 10px; */
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#vegnoodlesbackgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+    border-bottom: 1px solid black;
+
+}
+
+
+/* panner65 -------------------------------------------------------------*/
+
+#panner65div
+{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+#panner65image
+{
+    display: grid;
+    background-image: url(../mayonnaise_creative_website/images/panner65.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;   
+}
+#panner65text
+{ 
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906);   
+    border-radius:0px 0px 8px 8px ;
+   
+}
+#panner65price
+{
+
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin-top:125.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 0px 8px ;
+  
+}
+#panner65countandsize
+{
+    text-align: center;
+    display: none;
+    /* padding: 10px; */
+    margin-top:124.8px ;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0.906); 
+    border-radius:0px 0px 8px 0px ;
+   
+} 
+#panner65backgroundcolor
+{
+    background-color: rgba(240, 248, 255, 0.602); 
+    display: none;
+    border-radius:8px 8px 8px 8px ;
+    border-bottom: 1px solid black;
+}
+
+
+/*contact page --------------------------------------------------------------------------------------------------------------------*/
+
+
+#contactsdiv
+{
+   padding: 30px 0px 30px 30px;
+   background-color: #F1E0D1;
+   height: 90vh;
+
+}
+
+#contactcontentimages
+{
+    
+    background-image: url("../mayonnaise_creative_website/images/contactimage.jpg");
+    height: 90vh;
+    background-size: cover;
+    width: 800px;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    /* border: 1px solid black; */
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 1px 1px 3px black;
+}
+
+#contacttext
+{
+    padding: 3px;
+    border: 1px solid black;
+    margin-top: -450px;
+    margin-left: 820px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+
+/* my orders--------------------------------------------------------- */
+#pizzatable
+{
+    margin-left: -70px;
+    display: none;
+    padding: 10px;
+    border-collapse: collapse;
+}
+.mycarttableheadings
+{
+    display: none;
+    padding: 10px;
+    border: 1px solid white;
+}
+.mycartdatas
+{
+    display: none;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+
+.okbutton
+{
+    border-style: none;
+    background-color: rgb(194, 194, 197);
+    color: black;
+}
